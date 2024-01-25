@@ -1,29 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pomodoro Timer</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="pomodoro-app">
-        <div id="timer-display">25:00</div>
-        <div id="buttons">
-            <button id="start-pause-btn">Start</button>
-            <button id="reset-btn">Reset</button>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pomodoro Timer</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="pomodoro-app">
+            <div id="timer-display">25:00</div>
+            <div id="buttons">
+                <button id="start-pause-btn">Start</button>
+                <button id="reset-btn">Reset</button>
+            </div>
+            <div id="session-counter">Sessions: 0</div>
         </div>
-        <div id="session-counter">Sessions: 0</div>
-    </div>
-    <script src="script.js"></script>
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>
-
-<!--
-TODO:
-- []: Add the ability to choose your pattern.
-- []: Add logic for short break, long break, and resetting the timer for the next session
-- []: Sound Notifications: Implement sound notifications to alert the user when a session ends or a break is over.
-- []: Local Storage: Save session counts and timer settings in local storage so they persist between page reloads.
-- []: Customize styling
--->
